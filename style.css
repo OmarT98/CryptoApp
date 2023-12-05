@@ -77,6 +77,8 @@ body {
 }
 
 .coin.rising {
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: linear-gradient(90deg, #202022, #4eb64510);
 }
 
@@ -85,11 +87,37 @@ body {
 }
 
 .coin.falling {
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: linear-gradient(90deg, #202022, #aa444425);
 }
 
 .coin.falling .coin-price .price {
   color: #ff4040;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  font-family: "Mukta", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.social-media {
+  font-family: "Mukta", sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 550px) {
